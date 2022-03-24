@@ -1,5 +1,3 @@
-console.log("Yo, what's up bro");
-
 const d = document.getElementById("papel");
 const lienzo = d.getContext("2d");
 

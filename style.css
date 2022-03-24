@@ -3,33 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.8%;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
 }
 h1 {
+    margin: 1rem;
+    font-size: 3rem;
+    color: #ffffff;
     text-align: center;
 }
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pizarra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    /* border: 0.2rem solid orange; */
+}
+.inputs div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    /* border: 0.2rem dotted green; */
+}
+.inputs p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0.2rem;
+    font-size: 1.8rem;
+}
+.inputs input{
+    border-radius: 2rem;
+}
 canvas{
-    height: 500px;
-    width: 500px;
-    margin: 20px;
+    height: 50rem;
+    width: 50rem;
+    margin: 2rem;
     border: 2px solid black;
+    background-color: #ffffff;
 
+    padding: 0.2rem;
+    border-radius: 1rem;
 }
 
 .boton {
-    margin: 0px 20px;
-    height: 30px;
-    width: 100px;
-    border: solid black;
+    margin: 2rem;
+    height: 3rem;
+    width: 10rem;
+    
     background-color: grey;
+    
+    border: solid black;
     border-radius: 10px;
+    
     font-weight: bolder;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    
+    align-self: center;
 }
 .boton:hover {
-    color: purple;
-    border: solid purple;
+    color: white;
+    border: solid antiquewhite;
 
 }

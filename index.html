@@ -9,10 +9,31 @@
 </head>
 <body>
     <h1>Ok, let's have some drawing</h1>
-    <button type="button" class="boton">Draw</button>
-    <div>
-        <canvas width="500" height="500" id="papel"></canvas>
+    <div class="main-container">
+    
+        <div class="inputs">
+            <p>Choose colors (hex also works)</p>
+            <div>
+                <p>Color 1</p>
+                <input type="text" id="Color1">
+            </div>
+            <div>
+                <p>Color 2</p>
+                <input type="text" id="Color2">
+            </div>
+            <div>
+                <p>Color 3</p>
+                <input type="text" id="Color3">
+            </div>
+            <button type="button" class="boton" id="botoncito">Draw</button>
+        </div>
+
+        <div class="pizarra">
+            <canvas width="500" height="500" id="papel"></canvas>
+        </div>
+    
     </div>
+    
     <script src="draw.js" type="module"></script>
     <script src="index.js" type="module"></script>
 </body>
