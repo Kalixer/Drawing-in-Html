@@ -25,7 +25,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
 }
 .inputs {
     display: flex;
@@ -79,4 +78,19 @@ canvas{
     color: white;
     border: solid antiquewhite;
 
+}
+@media (max-width: 830px) {
+    .main-container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-container{
+        align-items: center;
+    }
+    .pizarra canvas{
+        max-width: 90vw;
+        max-height: 90vw
+    }
 }
