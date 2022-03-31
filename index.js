@@ -27,6 +27,11 @@ function drawing() {
     
     if(counter == 25){
         clearInterval(intervalo)
+
+        setTimeout(() => {
+            const phrase = document.getElementById("lastMessage")
+            phrase.innerHTML = "Pretty, isn't it?";
+        }, 2000)
     }
 
     a = counter * 20;
@@ -47,20 +52,3 @@ function drawLines() {
 
 }
 
-
-
-
-
-
-// function send() {
-//     let x1 = document.getElementById("Color1")
-//     let hex1 = x1.value;
-//     let x2 = document.getElementById("Color2")
-//     let hex2 = x2.value;
-//     let x3 = document.getElementById("Color3")
-//     let hex3 = x3.value;
-    
-//     console.log(`Value of color 1 is ${hex1}`)
-//     console.log(`Value of color 2 is ${hex2}`)
-//     console.log(`Value of color 2 is ${hex3}`)
-// }
