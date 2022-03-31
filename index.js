@@ -27,6 +27,11 @@ function drawing() {
     
     if(counter == 25){
         clearInterval(intervalo)
+
+        setTimeout(() => {
+            const phrase = document.getElementById("lastMessage")
+            phrase.innerHTML = "Pretty, isn't it?";
+        }, 2000)
     }
 
     a = counter * 20;

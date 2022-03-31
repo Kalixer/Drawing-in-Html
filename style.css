@@ -23,10 +23,12 @@ h1 {
 }
 .pizarra {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .inputs {
+    position: sticky;
     display: flex;
     flex-direction: column;
     /* border: 0.2rem solid orange; */
