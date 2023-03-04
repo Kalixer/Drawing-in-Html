@@ -28,6 +28,8 @@ h1 {
     align-items: center;
 }
 .inputs {
+    height: 400px;
+
     position: sticky;
     display: flex;
     flex-direction: column;

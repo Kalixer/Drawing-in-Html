@@ -12,7 +12,7 @@
     <div class="main-container">
     
         <div class="inputs">
-            <p>Choose colors (hex also works)</p>
+            <p>Choose colors</p>
             <div>
                 <p>Color 1</p>
                 <input type="text" id="Color1">
@@ -25,12 +25,13 @@
                 <p>Color 3</p>
                 <input type="text" id="Color3">
             </div>
-            <button type="button" class="boton" id="botoncito">Draw</button>
+            <div id="buttons">
+                <button type="button" class="boton" id="boton_dibujar">Draw</button>
+            </div>
         </div>
 
         <div class="pizarra">
             <canvas width="500" height="500" id="papel"></canvas>
-            <h1 id="lastMessage"></h1>
         </div>
     
     </div>
