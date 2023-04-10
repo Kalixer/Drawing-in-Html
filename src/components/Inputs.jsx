@@ -3,7 +3,7 @@ import ButtonDraw from "./ButtonDraw";
 
 const Inputs = () => {
     return (
-        <div class="inputs">
+        <div className="inputs">
             <p>Choose colors</p>
             <div>
                 <p>Color 1</p>

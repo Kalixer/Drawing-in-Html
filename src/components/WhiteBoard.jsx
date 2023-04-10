@@ -4,7 +4,7 @@ const WhiteBoard = () => {
  
     return (
         <>
-            <div class="pizarra">
+            <div className="pizarra">
                 <canvas width="500" height="500" id="papel"></canvas>
             </div>
         </>

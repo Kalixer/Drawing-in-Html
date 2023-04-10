@@ -10,7 +10,7 @@ const ButtonDraw = () => {
     return (
         <>
             <div id="buttons">
-                <button type="button" class="boton" id="boton_dibujar" onClick={draw}>Draw</button>
+                <button type="button" className="boton" id="boton_dibujar" onClick={draw}>Draw</button>
             </div>
         </>
     );
