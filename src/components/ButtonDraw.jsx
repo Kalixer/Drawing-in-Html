@@ -7,6 +7,8 @@ const ButtonDraw = () => {
     const draw = () => {
         console.log(colors)
     }
+
+
     return (
         <>
             <div id="buttons">

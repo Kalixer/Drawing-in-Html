@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const useInitialState = () => {
-    const [colors, setColors] = useState(['color1', 'color2', 'color3'])
+    const [colors, setColors] = useState(['', '', ''])
 
     const addColor = (brushes) => {
         color[0] = brushes[0]
