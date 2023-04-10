@@ -1,8 +1,13 @@
 import React from "react";
+import Inputs from "./Inputs";
+import WhiteBoard from "./WhiteBoard";
 
 const Home = () => {
     return (
-        <h1>Ola k ase</h1>
+        <div className="main-container">
+            <Inputs/>
+            <WhiteBoard/>
+        </div>
     );
 }
 
